@@ -1,0 +1,25 @@
+.contact-heading{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.login{
+    background-color: black;
+    color: white;
+    padding-left:8%;
+    padding-right: 8%;
+}
+.login:hover{
+    opacity: 0.5;
+}
+.register{
+    
+    padding-left: 6%;
+    padding-right: 6%;
+    background-color: #FF6969
+}
+.register:hover{
+    opacity: 0.5;
+    color: black;
+}
+

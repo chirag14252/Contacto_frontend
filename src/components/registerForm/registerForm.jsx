@@ -1,6 +1,6 @@
 import "./registerForm.css"
 import { useState } from "react"
-import axios from "axios"
+import InstanceAxios from "../../axios"
 import {ToastContainer,toast} from "react-toastify"
 import 'react-toastify/dist/ReactToastify.css';
 import { useNavigate } from "react-router-dom";
@@ -18,7 +18,7 @@ const reqBody = {
     "username":username,
     "password":password
 }
-axios.post("http://localhost:3000/register",reqBody).then(
+InstanceAxios().post("/register",reqBody).then(
     (res)=>{
        SetName("");
        Setusername("");
